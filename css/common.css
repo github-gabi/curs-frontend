@@ -1,2 +1,3 @@
-@import "fonts.css";
-@import "common.css"
+.item img {
+    width: 100%;
+}
