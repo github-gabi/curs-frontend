@@ -1,3 +1,13 @@
+
+/* ------Carousel---------*/
+
 .item img {
     width: 100%;
+}
+
+/* ------Footer---------*/
+
+footer > address {
+    text-align: center;
+    padding: 20px;
 }
