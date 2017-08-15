@@ -1,18 +1,40 @@
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
 /* ------header---------*/
 header {
     position: relative;
 }
 
-
+.navbar-header {
+    padding-left: 2%;
+    float: left;
+}
 nav.navbar {
     position: absolute;
     top: 0;
-    left: 2%;
+    left: 0;
+    width: 100%;
 }
 
-.navbar-nav {
+ul.nav > li > a {
     color: #FFFFFF;
 }
+
+ul.nav > li > a:hover {
+    color: #337ab7;
+}
+
+.navbar-brand > img {
+    float: left;
+    display: inline;
+}
+#myNavbar > ul.nav {
+    float: right;
+}
+
 
 .photoTitle {
     position: absolute;
@@ -26,13 +48,60 @@ nav.navbar {
 
 /* ------Carousel---------*/
 
-.item img {
+.item > img {
     width: 100%;
+    height: 80%;
 }
+
+#myCarousel {
+    position: relative;
+}
+ol.carousel-indicators {
+    bottom: 30%;
+}
+
+#myCarousel .learnMore {
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    color: #FFFFFF;
+    z-index: 16;
+}
+
+
+#myCarousel .learnMore a {
+    color: #FFFFFF;
+}
+
+/* ------content---------*/
+
+section {
+    margin: 5% 0 5% 0;
+}
+
+section > header > h1 {
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* ------content---------*/
 
 /* ------Footer---------*/
 
 footer > address {
     text-align: center;
     padding: 20px;
+}
+
+
+
+@media (min-width: 768px) {
+
+.navbar-brand > img {
+    width: 80%;
+}
+
 }
