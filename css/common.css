@@ -91,10 +91,55 @@ section > header > h1 {
 
 /* ------Footer---------*/
 
+footer {
+    background-color: #737373;
+    color: #FFFFFF;
+}
+
 footer > address {
     text-align: center;
     padding: 20px;
 }
+
+.logo {
+    width: 49%;
+    float: left;
+}
+
+.logo > img {
+    display: inline;
+}
+
+.author {
+    padding: 2% 0% 2% 0%;
+    border-top: 2px solid #808080;
+}
+
+.authorName {
+    width: 49%;
+    color: #d9d9d9;
+    text-align: right;
+    float: right;
+}
+
+.cyan {
+    color: #00b3b3;
+}
+
+.menuBottom {
+    padding: 3% 0% 3% 0%;
+    color: #FFFFFF;
+}
+
+footer div a {
+    color: #FFFFFF;
+}
+
+.menuBottom div ul li {
+    padding-bottom: 4px;
+
+}
+
 
 
 
