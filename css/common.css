@@ -49,7 +49,6 @@ ul.nav > li > a:hover {
 /* ------Carousel---------*/
 
 .item > img {
-<<<<<<< HEAD
     width: 100%;
     height: 80%;
 }
@@ -87,10 +86,6 @@ section > header > h1 {
     margin: auto;
 }
 
-=======
-    width: 100%;
-    height: 80%;
-}
 
 #myCarousel {
     position: relative;
@@ -105,6 +100,7 @@ ol.carousel-indicators {
     bottom: 5%;
     color: #FFFFFF;
     z-index: 16;
+
 }
 
 
@@ -125,7 +121,24 @@ section > header > h1 {
     margin: auto;
 }
 
->>>>>>> 27b048bb90b44704790ac1bd2fbca2cd9a63c37b
+#myCarousel .learnMore a {
+    color: #FFFFFF;
+}
+
+/* ------content---------*/
+
+section {
+    margin: 5% 0 5% 0;
+}
+
+section > header > h1 {
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+
 
 /* ------content---------*/
 
@@ -180,7 +193,7 @@ footer div a {
 
 }
 
-<<<<<<< HEAD
+
 /* ----------bootstrap css----------*/
 
 .div_demo {
@@ -233,15 +246,6 @@ footer div a {
 #div_12 {
     background-color: #BC7052;
 }
-
-
-
-
-
-=======
->>>>>>> 27b048bb90b44704790ac1bd2fbca2cd9a63c37b
-
-
 
 @media (min-width: 768px) {
 
