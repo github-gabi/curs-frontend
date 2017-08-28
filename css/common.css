@@ -1,4 +1,4 @@
-.container-fluid {
+.container-fluid, container {
     padding: 0;
     margin: 0;
 }
@@ -8,10 +8,19 @@ header {
     position: relative;
 }
 
-.navbar-header {
+nav.navbar-default, .navbar {
+    background-color: transparent !important;
+    border-color:  transparent !important;
+    border-radius: none !important;
+    padding : 0 2% 0 2%;
+
+}
+ 
+nav.navbar-header {
     padding-left: 2%;
     float: left;
 }
+
 nav.navbar {
     position: absolute;
     top: 0;
@@ -19,18 +28,23 @@ nav.navbar {
     width: 100%;
 }
 
-ul.nav > li > a {
-    color: #FFFFFF;
+button .navbar-toggle {
+    border-color: #FFFFFF !important;
 }
 
-ul.nav > li > a:hover {
-    color: #337ab7;
+ul.navbar-nav,  ul.nav > li > a {
+    color: #FFFFFF !important;
+}
+
+ul.navbar-nav,  ul.nav > li > a:hover {
+    color: #DFDFDF !important;
 }
 
 .navbar-brand > img {
     float: left;
     display: inline;
 }
+
 #myNavbar > ul.nav {
     float: right;
 }
@@ -54,6 +68,8 @@ ul.nav > li > a:hover {
 }
 
 #myCarousel {
+    margin: 0;
+    padding: 0;
     position: relative;
 }
 ol.carousel-indicators {
