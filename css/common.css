@@ -32,6 +32,10 @@ button .navbar-toggle {
     border-color: #FFFFFF !important;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+
 ul.navbar-nav,  ul.nav > li > a {
     color: #FFFFFF !important;
 }
@@ -49,6 +53,9 @@ ul.navbar-nav,  ul.nav > li > a:hover {
     float: right;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF !important;
+}
 
 .photoTitle {
     position: absolute;
@@ -267,6 +274,24 @@ footer div a {
 
 .navbar-brand > img {
     width: 80%;
+}
+
+}
+@media (min-width: 360px) {
+
+.menuBottom {
+    padding: 3%;
+}
+.menuBottom div ul li {
+    border-bottom: 1px solid #808080;
+    display: block;
+    padding: 10px;
+
+}
+
+.author {
+    padding: 2%;
+    margin: 2%;
 }
 
 }
