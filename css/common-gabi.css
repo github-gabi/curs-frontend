@@ -1,0 +1,297 @@
+.container-fluid, container {
+    padding: 0;
+    margin: 0;
+}
+
+/* ------header---------*/
+header {
+    position: relative;
+}
+
+nav.navbar-default, .navbar {
+    background-color: transparent !important;
+    border-color:  transparent !important;
+    border-radius: none !important;
+    padding : 0 2% 0 2%;
+
+}
+ 
+nav.navbar-header {
+    padding-left: 2%;
+    float: left;
+}
+
+nav.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+button .navbar-toggle {
+    border-color: #FFFFFF !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+
+ul.navbar-nav,  ul.nav > li > a {
+    color: #FFFFFF !important;
+}
+
+ul.navbar-nav,  ul.nav > li > a:hover {
+    color: #DFDFDF !important;
+}
+
+.navbar-brand > img {
+    float: left;
+    display: inline;
+}
+
+#myNavbar > ul.nav {
+    float: right;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF !important;
+}
+
+.photoTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    color: #FFFFFF;
+    font-size: 3vw;
+}
+
+/* ------Carousel---------*/
+
+.item > img {
+    width: 100%;
+    height: 80%;
+}
+
+#myCarousel {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+ol.carousel-indicators {
+    bottom: 30%;
+}
+
+#myCarousel .learnMore {
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    color: #FFFFFF;
+    z-index: 16;
+}
+
+
+#myCarousel .learnMore a {
+    color: #FFFFFF;
+}
+
+/* ------content---------*/
+
+section {
+    margin: 5% 0 5% 0;
+}
+
+section > header > h1 {
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+
+#myCarousel {
+    position: relative;
+}
+ol.carousel-indicators {
+    bottom: 30%;
+}
+
+#myCarousel .learnMore {
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    color: #FFFFFF;
+    z-index: 16;
+
+}
+
+
+#myCarousel .learnMore a {
+    color: #FFFFFF;
+}
+
+/* ------content---------*/
+
+section {
+    margin: 5% 0 5% 0;
+}
+
+section > header > h1 {
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+#myCarousel .learnMore a {
+    color: #FFFFFF;
+}
+
+/* ------content---------*/
+
+section {
+    margin: 5% 0 5% 0;
+}
+
+section > header > h1 {
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+/* ------content---------*/
+
+/* ------Footer---------*/
+
+footer {
+    background-color: #737373;
+    color: #FFFFFF;
+}
+
+footer > address {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 49%;
+    float: left;
+}
+
+.logo > img {
+    display: inline;
+}
+
+.author {
+    padding: 2% 0% 2% 0%;
+    border-top: 2px solid #808080;
+}
+
+.authorName {
+    width: 49%;
+    color: #d9d9d9;
+    text-align: right;
+    float: right;
+}
+
+.cyan {
+    color: #00b3b3;
+}
+
+.menuBottom {
+    padding: 3% 0% 3% 0%;
+    color: #FFFFFF;
+}
+
+footer div a {
+    color: #FFFFFF;
+}
+
+.menuBottom div ul li {
+    padding-bottom: 4px;
+
+}
+
+
+/* ----------bootstrap css----------*/
+
+.div_demo {
+    height: auto;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 3%;
+}
+.div_demo img {
+    height: auto;
+    width: 100%;
+}
+
+
+#div_1 {
+    background-color: #4286f4;
+}
+
+#div_2 {
+    background-color: #C879BB;
+}
+
+#div_3 {
+    background-color: #86FF97;
+}
+#div_4 {
+    background-color: #ABFF86;
+}
+#div_5 {
+    background-color: #FBFF86;
+}
+#div_6 {
+    background-color: #FF86A0;
+}
+#div_7 {
+    background-color: #86DAFF;
+}
+#div_8 {
+    background-color: #86FFD8;
+}
+#div_9 {
+    background-color: #BC52B0;
+}
+#div_10 {
+    background-color: #69BC52;
+}
+#div_11 {
+    background-color: #BCA552;
+}
+#div_12 {
+    background-color: #BC7052;
+}
+
+@media (min-width: 768px) {
+
+.navbar-brand > img {
+    width: 80%;
+}
+
+}
+@media (min-width: 360px) {
+
+.menuBottom {
+    padding: 3%;
+}
+.menuBottom div ul li {
+    border-bottom: 1px solid #808080;
+    display: block;
+    padding: 10px;
+
+}
+
+.author {
+    padding: 2%;
+    margin: 2%;
+}
+
+}
